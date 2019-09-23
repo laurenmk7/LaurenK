@@ -1,0 +1,48 @@
+/* quick change to add new commit to GitLab */
+/* second quick change to add new commit to GitLab */
+
+body {
+  background-color : #134151;
+  font-family : Arial, helvetica, sans-serif;
+  line-height : 28px;
+  font-size : 16px;
+  color : #ffffff;
+  padding : 20px;
+}
+
+#content {
+  background-color : #932375;
+  padding: 20px;
+  width: 100%;
+  max-width: 960px;
+  min-width: 320px;
+}
+
+#content td{
+  padding: 5px;
+  border-bottom: 1px solid #6180c1;
+}
+
+.headings {
+  font-weight: 700;
+  color: #836db5;
+}
+
+#table {
+  border: 1px solid #ffffff;
+  padding: 10px 30px 30px;
+  background-color: #441036;
+}
+th{
+ text-decoration: underline;
+ color: #441036;
+ text-align:left;
+ font-weight: bold;
+ font-size: 22px;
+ padding: 0px 5px;
+ min-width: 60px;
+}
+
+.length {
+  text-align: center;
+}

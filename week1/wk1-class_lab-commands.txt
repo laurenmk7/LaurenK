@@ -1,0 +1,111 @@
+MKDIR(1)                  BSD General Commands Manual                 MKDIR(1)
+
+NAME
+     mkdir -- make directories
+
+SYNOPSIS
+     mkdir [-pv] [-m mode] directory_name ...
+
+DESCRIPTION
+     The mkdir utility creates the directories named as operands, in the order specified, using mode rwxrwxrwx (0777) as modified by the current umask(2).
+
+
+-----------
+LS(1)                     BSD General Commands Manual                    LS(1)
+
+NAME
+     ls -- list directory contents
+
+SYNOPSIS
+     ls [-ABCFGHLOPRSTUW@abcdefghiklmnopqrstuwx1] [file ...]
+
+DESCRIPTION
+     For each operand that names a file of a type other than directory, ls
+     displays its name as well as any requested, associated information.  For
+     each operand that names a file of type directory, ls displays the names
+     of files contained within that directory, as well as any requested, asso-
+     ciated information.
+
+     If no operands are given, the contents of the current directory are dis-
+     played.  If more than one operand is given, non-directory operands are
+     displayed first; directory and non-directory operands are sorted sepa-
+     rately and in lexicographical order.
+
+     
+---------------------
+
+ECHO(1)                   BSD General Commands Manual                  ECHO(1)
+
+NAME
+     echo -- write arguments to the standard output
+
+SYNOPSIS
+     echo [-n] [string ...]
+
+DESCRIPTION
+     The echo utility writes any specified operands, separated by single blank
+     (` ') characters and followed by a newline (`\n') character, to the stan-
+     dard output.
+
+     The following option is available:
+
+     -n    Do not print the trailing newline character.  This may also be
+           achieved by appending `\c' to the end of the string, as is done by
+           iBCS2 compatible systems.  Note that this option as well as the
+           effect of `\c' are implementation-defined in IEEE Std 1003.1-2001
+           (``POSIX.1'') as amended by Cor. 1-2002.  Applications aiming for
+           maximum portability are strongly encouraged to use printf(1) to
+           suppress the newline character.
+
+
+--------------------
+
+LOCATE(1)                 BSD General Commands Manual                LOCATE(1)
+
+NAME
+     locate -- find filenames quickly
+
+SYNOPSIS
+     locate [-0Scims] [-l limit] [-d database] pattern ...
+
+DESCRIPTION
+     The locate program searches a database for all pathnames which match the
+     specified pattern.  The database is recomputed periodically (usually
+     weekly or daily), and contains the pathnames of all files which are pub-
+     licly accessible.
+
+     Shell globbing and quoting characters (``*'', ``?'', ``\'', ``['' and
+     ``]'') may be used in pattern, although they will have to be escaped from
+     the shell.  Preceding any character with a backslash (``\'') eliminates
+     any special meaning which it may have.  The matching differs in that no
+     characters must be matched explicitly, including slashes (``/'').
+
+     As a special case, a pattern containing no globbing characters (``foo'')
+     is matched as though it were ``*foo*''.
+
+--------------
+
+
+PWD(1)                    BSD General Commands Manual                   PWD(1)
+
+NAME
+     pwd -- return working directory name
+
+SYNOPSIS
+     pwd [-L | -P]
+
+DESCRIPTION
+     The pwd utility writes the absolute pathname of the current working
+     directory to the standard output.
+
+     Some shells may provide a builtin pwd command which is similar or identi-
+     cal to this utility.  Consult the builtin(1) manual page.
+
+     The options are as follows:
+
+     -L      Display the logical current working directory.
+
+     -P      Display the physical current working directory (all symbolic
+             links resolved).
+
+     If no options are specified, the -L option is assumed.

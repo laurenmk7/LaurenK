@@ -1,0 +1,40 @@
+/* second quick change to add new commit to GitLab */
+
+body {
+  background-color : #A2D6E9;
+  font-family : Arial, helvetica, sans-serif;
+  line-height : 28px;
+  font-size : 16px;
+  color : #222A2D;
+  padding : 20px;
+}
+h1 {
+  color: #D3CF89;
+}
+p {
+    color: #222A2D;
+}
+
+a {
+  color: #CE92A1;
+  text-decoration: underline;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  margin: 0px 20px 20px 20px;
+  border: 5px solid #CE92A1;
+}
+
+#content {
+  background-color : #ffffff;
+  padding: 20px;
+  width: 100%;
+  max-width: 960px;
+  min-width: 320px;
+}
+.achievements {
+  font-style: italic;
+  display: inline-block;
+}
