@@ -1,0 +1,27 @@
+let colonyConnecticut = 'Hartford';
+let colonyDelaware = 'Dover';
+let colonyGeorgia = 'Atlanta';
+let colonyMaryland = 'Annapolis';
+let colonyMassachusetts = 'Boston';
+let colonyNewHampshire = 'Concord';
+let colonyNewJersey = 'Trenton';
+let colonyNewYork = 'Albany';
+let colonyNorthCarolina = 'Raleigh';
+let colonyPennsylvania = 'Harrisburg';
+let colonyRhodeIsland = 'Providence';
+let colonySouthCarolina = 'Columbia';
+let colonyVirginia = 'Richmond';
+
+console.log(colonyConnecticut);
+console.log(colonyDelaware);
+console.log(colonyGeorgia);
+console.log(colonyMaryland);
+console.log(colonyMassachusetts);
+console.log(colonyNewHampshire);
+console.log(colonyNewJersey);
+console.log(colonyNewYork);
+console.log(colonyNorthCarolina);
+console.log(colonyPennsylvania);
+console.log(colonyRhodeIsland);
+console.log(colonySouthCarolina);
+console.log(colonyVirginia);
